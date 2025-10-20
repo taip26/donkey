@@ -34,6 +34,7 @@ button {
     border: 1px solid black;
     border-radius: 4px;
     padding: 4px;
+    height: 2rem;
 }
 
 button:hover {
@@ -58,9 +59,13 @@ button:hover {
 
 .barista-hours,
 .barista-minutes {
-    max-width: 2rem;
+    max-width: 4rem;
 }
 
 #tip-input {
-    max-width: 6rem;
+    max-width: 8rem;
+}
+
+#action-buttons {
+    gap: 2px;
 }

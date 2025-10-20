@@ -15,8 +15,8 @@ function newBarista() {
 
     baristaGroup.innerHTML = `
                 <input class="barista-name" type="text" placeholder="Enter a name here..."/>
-                <input class="barista-hours" type="text" placeholder="Enter hours here..."/>
-                <input class="barista-minutes" type="text" placeholder="Enter minutes here..." />
+                <input class="barista-hours" type="text" placeholder="Enter hrs." />
+                <input class="barista-minutes" type="text" placeholder="Enter min." />
                 <button class="delete-button">X Delete</button>
             `;
 
